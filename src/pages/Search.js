@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import { useSearchParams } from "react-router-dom"
 import { Card } from "../components";
 import { useFetch } from "../hooks/useFetch";
@@ -11,7 +11,7 @@ export const Search = ({apiPath}) => {
   
   const {data : movies } = useFetch(apiPath, searchTerm);
 
-  const pageTitle = useTitle(`Search result for -  ${ searchTerm }`);
+  useTitle(`Search result for -  ${ searchTerm }`);
 
   return (
     <main>
