@@ -20,7 +20,7 @@ export const MovieDetail = () => {
     }
 
     getMovieDetails();
-  },[])
+  },[params.id])
 
   const pageTitle = useTitle(movie.title);
 
