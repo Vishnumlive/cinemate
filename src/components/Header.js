@@ -41,7 +41,7 @@ export const Header = () => {
           
           <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
               <img src={ Logo } className="mr-2 h-8" alt="Cinemate Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemate</span>
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cinemamate</span>
           </Link>
           <div className="flex md:order-2">
             <button  onClick={() => setDarkMode(!darkMode) } type="button" data-tooltip-target="navbar-search-example-toggle-dark-mode-tooltip" data-toggle-dark="light" className="flex items-center p-2 mr-2 text-xs font-medium text-gray-700 bg-white rounded-lg border border-gray-200 toggle-dark-state-example hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-500 dark:bg-gray-800 focus:outline-none dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">
